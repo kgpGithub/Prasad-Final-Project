@@ -4,12 +4,6 @@ metadata:
   name: capstone-project
   labels:
     app: capstone-project
-managedNodeGroups:
-- name: nodegroup
-  desiredCapacity: 3
-  instanceType: t3.small
-  ssh:
-    enableSsm: true
 spec:
   selector:
     matchLabels:
